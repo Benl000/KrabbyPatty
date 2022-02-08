@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+table {
+
+    margin: auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.cell img {
+    width: 25px;
+    height: auto;
+}
+.floor {
+    background-color: rgb(117, 70, 43);
+}
+.wall {
+    background-color: rgb(39, 130, 146);
+    border: rgb(51, 26, 12) 4px solid;
+}
+
+.candy{
+    margin-top: 10px;
+}
+
+.gameOver{
+font-size: 200%;
+display: none;
+margin-bottom: 10px;
+}
+
+button{
+    width: 50px;
+    display: none;
+    height: 20px;
+    margin-top: 20px;
+    margin: auto;
+}
